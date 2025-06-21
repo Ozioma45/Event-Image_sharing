@@ -6,7 +6,7 @@ A simple and responsive webpage to showcase photos from a recent event using **G
 
 ## 🖼️ Live Preview
 
-- [click here for live preview](https://event-image-sharing.vercel.app/)
+- [click here for the live preview](https://event-image-sharing.vercel.app/)
 
 > See awesome moments from the event in an embedded gallery view.
 
@@ -26,9 +26,9 @@ A simple and responsive webpage to showcase photos from a recent event using **G
 ```
 
 📂 event-gallery/
-├── index.html         # Main HTML file
-├── banner.jpg         # (Optional) Banner background image
-└── README.md          # This file
+├── index.html # Main HTML file
+├── banner.jpg # (Optional) Banner background image
+└── README.md # This file
 
 ```
 
@@ -50,7 +50,7 @@ A simple and responsive webpage to showcase photos from a recent event using **G
 3. (Optional) Replace the background image in the `.banner` style:
 
    ```css
-   background-image: url('your-banner.jpg');
+   background-image: url("your-banner.jpg");
    ```
 
 ---
@@ -63,7 +63,7 @@ A simple and responsive webpage to showcase photos from a recent event using **G
 4. Copy the folder ID from the URL:
 
    ```
-   https://drive.google.com/drive/folders/1jSw9T_xRnh4r8ruO_n_9yJel2aZOzAhbY
+   https://drive.google.com/drive/folders/1jSw9T8i_xRnh4rcVO_n_9yJel2aZOzAhbY
                                           ↑ This is your folder ID
    ```
 
@@ -71,17 +71,17 @@ A simple and responsive webpage to showcase photos from a recent event using **G
 
 ## 💡 Customization Tips
 
-* Adjust the banner height in CSS if needed
-* Change the overlay darkness using `rgba(0, 0, 0, 0.5)`
-* Add a footer with contact links if desired
+- Adjust the banner height in CSS if needed
+- Change the overlay darkness using `rgba(0, 0, 0, 0.5)`
+- Add a footer with contact links if desired
 
 ---
 
 ## 🧑‍💻 Built With
 
-* HTML5
-* CSS3
-* Google Drive (as photo gallery backend)
+- HTML5
+- CSS3
+- Google Drive (as photo gallery backend)
 
 ---
 
@@ -95,4 +95,7 @@ Created with ❤️ by Ozioma Egole
 
 This project is open-source and free to use. Modify it for personal or public event galleries.
 
+```
+
+```
 ````
