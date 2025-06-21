@@ -6,7 +6,7 @@ A simple and responsive webpage to showcase photos from a recent event using **G
 
 ## 🖼️ Live Preview
 
-- [click here for the live preview](https://event-image-sharing.vercel.app/)
+- [Click here for the live preview](https://event-image-sharing.vercel.app/)
 
 > See awesome moments from the event in an embedded gallery view.
 
@@ -38,6 +38,7 @@ A simple and responsive webpage to showcase photos from a recent event using **G
 
 1. **Clone or download this repo**
 2. Replace the **Google Drive folder ID** in the `<iframe>` embed in `index.html`:
+
    ```html
    <iframe
      src="https://drive.google.com/embeddedfolderview?id=YOUR_FOLDER_ID#grid"
@@ -58,13 +59,13 @@ A simple and responsive webpage to showcase photos from a recent event using **G
 ## 📷 How to Get Google Drive Folder ID
 
 1. Go to your Google Drive
-2. Right-click your event photo folder > `Get link`
+2. Right-click your event photo folder → `Get link`
 3. Make sure it’s set to **"Anyone with the link can view"**
 4. Copy the folder ID from the URL:
 
    ```
    https://drive.google.com/drive/folders/1jSw9T8i_xRnh4rcVO_n_9yJel2aZOzAhbY
-                                          ↑ This is your folder ID
+                                             ↑ This is your folder ID
    ```
 
 ---
@@ -87,7 +88,7 @@ A simple and responsive webpage to showcase photos from a recent event using **G
 
 ## 🙏 Credits
 
-Created with ❤️ by Ozioma Egole
+Created with ❤️ by **Ozioma Egole**
 
 ---
 
