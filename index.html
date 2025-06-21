@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Gallery</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f4;
+      }
+
+      .banner {
+        position: relative;
+        background-image: url("./banner.webp");
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        padding: 0 1rem;
+        overflow: hidden;
+      }
+
+      .banner::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.829);
+        z-index: 1;
+      }
+
+      .banner h1 {
+        font-size: 3rem;
+        margin: 0;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.877);
+        z-index: 2;
+        position: relative;
+      }
+
+      .description {
+        text-align: center;
+        padding: 2rem 1rem;
+        font-size: 1.2rem;
+        color: #333;
+      }
+
+      iframe {
+        width: 100%;
+        height: 90vh;
+        border: none;
+      }
+
+      @media (max-width: 768px) {
+        .banner h1 {
+          font-size: 2rem;
+        }
+        .description {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Banner Header -->
+    <div class="banner">
+      <h1>THANKS FOR COMING</h1>
+    </div>
+
+    <!-- Description -->
+    <div class="description">
+      <p>Here are some awesome moments from the event</p>
+    </div>
+
+    <!-- Google Drive Gallery Embed -->
+    <iframe
+      src="https://drive.google.com/embeddedfolderview?id=1jSw9T_xRnh4rcVO_n_9yJel2aZOzAhbY#grid"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
